@@ -33,13 +33,13 @@ char Option;
                     X1= (-b-sqrt(Delta))/(2*a);
                     X2= (-b+sqrt(Delta))/(2*a);
                     printf("=========================================\n");
-                    printf("Phuong trinh co hai nghiem phan biet:\n");
+                    printf("Phuong trinh co hai nghiem phan biet: \n");
                     printf("X1 = %.2f, X2 = %.2f\n", X1, X2);
                 }
                 else if (Delta < 0)
                 {
                     printf("=========================================\n");
-                    printf("Phuong trinh khong co nghiem hoac co vo so nghiem\n");
+                    printf("Phuong trinh khong co nghiem hoac co vo so nghiem \n");
                 }
                 else
                 {
@@ -53,19 +53,19 @@ char Option;
             case 'N': case 'n':
             {
                 printf("=========================================\n");
-                printf("Ban hay nhap lai phuong trinh cho chinh xac nhe!\n");
+                printf("Ban hay nhap lai phuong trinh cho chinh xac nhe! \n");
                 break;
             }
             default:
             {
                 printf("=========================================\n");
-                printf("Khong the xac minh phuong trinh, vui long thu lai sau");
+                printf("Khong the xac minh phuong trinh, vui long thu lai sau \n");
             }
         }
     }
     else
     printf("Loi phuong trinh, he so a trong PTB2 phai khac 0 \n");
     printf("=========================================\n");
-    printf("Ban quyen thuoc ve Tuan Nguyen 62K1 - CNTT - Truong Dai hoc Vinh");
+    printf("Ban quyen thuoc ve Tuan Nguyen 62K1 - CNTT - Truong Dai hoc Vinh ");
     return 0;
 }
